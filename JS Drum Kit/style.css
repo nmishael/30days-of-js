@@ -1,0 +1,36 @@
+body {
+  background-color: black;
+  color: white;
+  font-size: 40px;
+}
+p {
+  margin: 0;
+}
+.sounds {
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;  
+  margin-top: 15%;
+}
+
+.key {
+  width: 70px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px aqua; 
+  margin: 1rem;
+  text-align: center;
+  transition: 0.07s;
+  padding: 10px;
+}
+
+.playing{
+  transform: scale(1.1);
+  border-color: black;
+  box-shadow: 0 0 10px yellow; 
+}
